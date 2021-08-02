@@ -1,0 +1,11 @@
+import Arithmetic_functions 
+x=int(input("Enter first number:"))
+y=int(input("Enter second number:"))
+z=Arithmetic_functions.add(x,y)
+print("Sum of x and y is:",z)
+q=Arithmetic_functions.sub(x,y)
+print("Difference of x and y is:",q)
+w=Arithmetic_functions.mul(x,y)
+print("Product of x and y is:",w)
+r=Arithmetic_functions.div(x,y)
+print("Division of x and y is:",r)
